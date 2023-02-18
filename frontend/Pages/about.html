@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <!--------- <title>Responsive Navigation Menu</title>------>
+    <link rel="stylesheet" href="../index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/about.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- navbar -->
+     <nav>
+      <div class="logo">Full Stack WEB_APP</div>
+      <input type="checkbox" id="click" />
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="notes.html">Notes</a></li>
+
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav> 
+
+    <!-- main section -->
+    <div id="bar_before">
+      <ul>
+        <!--Image thumbnails added using JS-->
+      </ul>
+    </div>
+    <main onscroll="refreshBars();">
+      <ul>
+        <li> <img id="img_0" src="
+      https://source.unsplash.com/ezSFnAFi9hY/500x500" alt="cut citrus fruits. " /> Cut Citrus Fruits.</li>
+        <li> <img id="img_1" src="https://source.unsplash.com/TIGDsyy0TK4/500x500" alt="sliced mango. " />Sliced Mango.</li>
+        <li> <img id="img_2" src="https://source.unsplash.com/TdDtTu2rv4s/500x500" alt="a bunch of blueberries. " />A Bunch of Blueberries.</li>
+        <li> <img id="img_3" src="https://source.unsplash.com/eudGUrDdBB0/500x500" alt="a pineapple sitting on a table. " />A Pineapple Sitting on a Table.</li>
+        <li> <img id="img_4" src="https://source.unsplash.com/eJH4f1rlG7g/500x500" alt="frozen raspberries. " /> Frozen Raspberries.</li>
+        <li> <img id="img_5" src="https://source.unsplash.com/24RUrLSW1HI/500x500" alt="a sliced strawberry. " />A Sliced Strawberry.</li>
+        <li> <img id="img_6" src="https://source.unsplash.com/h5yMpgOI5nI/500x500" alt="an arrangement of assorted sliced fruits. " />An Arrangement of Assorted Sliced Fruits.</li>
+        <li> <img id="img_7" src="https://source.unsplash.com/2TYrR2IB72s/500x500" alt="sliced watermelons. " />Sliced Watermelons.</li>
+        <li> <img id="img_8" src="https://source.unsplash.com/1cWZgnBhZRs/500x500" alt="grapefruits, lemons, and pomegranates. " />Grapefruits, Lemons, and Pomegranates.</li>
+        <li> <img id="img_9" src="https://source.unsplash.com/9aOswReDKPo/500x500" alt="half of an avocado. " />Half of an Avocado.</li>
+        <li> <img id="img_10" src="https://source.unsplash.com/Nl7eLS8E2Ss/500x500" alt="half of a lime. " />Half of a Lime.</li>
+        <li> <img id="img_11" src="https://source.unsplash.com/3HhXWJzG5Ko/500x500" alt="a single cherry with stem. " />A Single Cherry with Stem.</li>
+        <li> <img id="img_12" src="https://source.unsplash.com/fczCr7MdE7U/500x500" alt="a bunch of bananas. " />A Bunch of Bananas.</li>
+        <li> <img id="img_13" src="https://source.unsplash.com/uI900SItAyY/500x500" alt="three pears. " />Three Pears.</li>
+        <li> <img id="img_14" src="https://source.unsplash.com/0AynZdszfz0/500x500" alt="a basket full of peaches next to a plate with sliced peaches. " />A Basket Full of Peaches next to a Plate with Sliced Peaches.</li>
+        <li> <img id="img_15" src="https://source.unsplash.com/C6JhUKs9q8M/500x500" alt="a bowl of avocados. " />A Bowl of Avocados.</li>
+      </ul>
+    </main>
+    <div id="bar_after">
+      <ul>
+        <!--Image thumbnails added using JS-->
+      </ul>
+    </div>
+  </body>
+</html>
+<script src="./scripts/about.js"></script>

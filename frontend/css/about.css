@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style images and container */
+  main {
+    /* Contains images */
+    margin: 0;
+    padding-top: 20vmin;
+    padding-bottom: 20vmin;
+    background: white;
+    color: white;
+    text-align: center;
+    /* height: calc(100vh - 30vmin); */
+    height: 70vh;
+    width: 100vw;
+    /* position: fixed; */
+    overflow-y: auto;
+    scroll-behavior: smooth; /* Means anchor links will scroll smoothly */
+  }
+  main ul {
+    list-style-type: none; /* No bullet points */
+  }
+  
+  main img {
+    display: block;
+    height: 80vmin;
+    margin: auto; /* Centered */
+    margin-bottom: 10vmin;
+    margin-top: 10vmin;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5vmin;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: radial-gradient(#ccc, white);
+    border-radius: 2.5vmin;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: radial-gradient(#888, #ccc);
+  }
+  
+  /* Scroll Snap */
+  
+  main {
+    scroll-snap-type: y mandatory;
+    scroll-padding: 10vmin;
+  }
+  
+  main li {
+    scroll-snap-align: start;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
